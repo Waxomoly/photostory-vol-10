@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>"Sepadan" | Perspektif</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Persma Universitas Kristen Petra" name="author"/>
+    <meta content="Photostory Pers Mahasiswa Universitas Kristen Petra" name="description">
+    <meta content="Persma, Pers Mahasiswa, Genta, UK Petra, Universitas Kristen Petra, Photostory, Photostory Vol. 9, Pameran Photostory" name="keywords">
+
+    <!-- Icon -->
+    <link href="img/uc.png" rel="icon">
+
+
+    <!--Jquery 3.5.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- font awesome -->
+	<script src="https://kit.fontawesome.com/e52db3bf8a.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#ffffff">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="img/genta.png">
+    
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+<!-- Aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#Carousel').on('slid.bs.carousel', function (e) {
+                var imageNow = $('.carousel-item.active div img').attr('src');
+                $('#Carousel').css('background-image','url('+imageNow+')');                
+            })
+        })
+    </script>
+    <style>
+
+@font-face {
+            font-family: 'tenor';/*ini fontnya bebas dinamai apa*/
+            src: url(font/TenorSans-Regular.ttf); /*ngarahin ke file fontnya*/
+        }
+        * {
+            /* ini cara pakai nya : sesuai km kasih nama di font-face */
+            font-family: 'tenor';
+        }
+
+        .mylink {
+            text-decoration: none;
+            color: white;
+        }
+
+        .mylink:hover {
+            cursor: pointer;
+            color: grey;
+        }
+
+        .btn-navbar {
+            font-size: x-large;
+            letter-spacing: 0.2vh;
+            padding: 15px;
+            background: rgba(128, 128, 128, .7);
+            color: black;
+        }
+
+        .btn-navbar:hover {
+            color: white;
+            background: rgba(128, 128, 128, .9);
+        }
+
+        .overlay1 {
+            background-color: rgba (0, 0, 0, 0.2);
+        }
+
+        .button {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            height: 70px;
+            cursor: pointer;
+            outline: none;
+            background-color: rgba(220, 220, 220, 0.3);
+            border: none;
+            border-radius: 15px;
+        }
+
+        .button:hover {
+            background-color: gray;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .button:active {
+            background-color: gray;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+            opacity: 0.8;
+        }
+
+        .button01 {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 100%;
+            cursor: pointer;
+            outline: none;
+            background-color: rgba(220, 220, 220, 0.2);
+            border: none;
+            border-radius: 15px;
+        }
+
+        .button01:hover {
+            background-color: gray;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .button01:active {
+            background-color: gray;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+            opacity: 0.8;
+        }
+
+        .home-page03 {
+            background-image: url('img/2021/warisan/subtema/01.jpg');
+            background-size: cover;
+            height: 50vh;
+            background-position: center center;
+        }
+
+        .link01 {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .link01:hover {
+            color: #000000;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .pading {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            z-index: 1;
+        }
+
+        .image {
+            display: block;
+            width: 250px;
+            height: 250px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .overlay1 {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 250px;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            cursor: pointer;
+        }
+
+        .imagge:hover .overlay1 {
+            opacity: 1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .roww:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .immg {
+            margin-bottom: -4px;
+            height: 100%;
+        }
+
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        .immg.hover-shadow {
+            transition: 0.3s;
+        }
+
+        .hover-shadow:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        *,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+        /* jduul */
+        #baca{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    opacity: 1;
+    cursor: default;
+    margin-top: 60px;
+   
+}
+
+.fixed-top{
+ z-index:99;
+}
+
+
+body,html{
+    overflow-x: hidden;
+}
+@media (max-width:750px){
+    #baca div{
+        margin-top: 130px;
+    }
+    
+}    
+/* hp */
+@media(max-width:560px){
+    .d-t{
+        grid-row-start:18;
+    }
+    .g-t{
+        grid-row-start:11;
+    }
+    .b-t{
+        grid-row-start:3;
+    }
+}
+@media (min-width:561px) and (max-width:970px) {
+    .b-main{
+        grid-row-start:1;
+    }
+    .b-t{
+        grid-row-start:2;
+    }
+    .g-t{
+        grid-row-start:10;
+    }
+    .d-t{
+        grid-row-start:16;
+    }
+    .d-4{
+        grid-row-start:19;
+    }
+    
+}
+@media (max-height : 360px){
+    #baca{
+        height:30px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+    <div id="myNavv" class="overlay">
+        <div class="overlay-content">
+            <a href="javascript:void(0)" class="closebtn" id="hehe" onclick="openNav()"></a>
+            <ul>
+                <li style="text-align: right;">
+                    <a href="http://genta.petra.ac.id/">
+                        <img src="img/persma.png" style="height: 50px;">
+                    </a>
+                </li>
+                <li style="text-align:right;">
+                    <a href="index.php">
+                        <p class="teks-menubar">
+                            Home
+                        </p>
+                    </a>
+                </li>
+                <li style="text-align:right;">
+                    <a href="#padding-isi">
+                        <p class="teks-menubar">
+                            Pancarona
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <nav id="menuButon" class="navbar fixed-top navbar-light" style="background-color: rgba (0, 0, 0, 0.2);">
+        <a class="navbar-brand">
+        </a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <div id="closebtn" class="col-1" style="height: 48px; background-color: transparent;">
+                    <i class="fa-solid fa-bars fa-xl" id="hehe" onclick="openNav()"></i>
+                </div>
+    </nav>
+
+    <nav id="myNav" class="navbar fixed-top navbar-light"
+        style="background-color: rgba (0, 0, 0, 0.2); padding-left: 5%;">
+        <a class="navbar-brand mt-3" href="http://genta.petra.ac.id/">
+            <img src="img/persma.png" style="height: 70px;">
+        </a>
+
+        <ul class="nav nav-pills mt-3" style="padding-right: 13%;">
+            <div class="row rows-col-lg-2">
+                <div class="col">
+                    <li class="nav-item ">
+                        <a href="index.php"><button type="button" class="btn btn-navbar btn-lg"
+                                style="width: 105%; height: 63px;"><i class="fa-solid fa-arrow-left"></i></button></a>
+                    </li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <!-- carousel -->
+    <!-- Carousel page untuk mengarahkan ke artikel -->
+    <div class="page artikel" id="Carousel" style="background-image: url(img/Pancarona/p-b-main.jpg);background-size: contain;">
+        <div class="">
+          <div
+          id="carouselBaca"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselBaca"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselBaca"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselBaca"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active" style="background-color: #000000a8;">
+              <div style="display: flex;justify-content: center;width: 100vw;">
+                <img
+                src="img/Pancarona/p-b-main.jpg"
+                class="d-block w-100"
+                alt="..."
+                style="width: 100%;object-fit: cover;"
+              />
+              </div>
+            </div>
+            <div class="carousel-item" style="background-color: #000000a8;">
+              <div style="display: flex;justify-content: center;width: 100vw;">
+                <img
+                src="img/Pancarona/p-d-main.JPG"
+                class="d-block w-100"
+                alt="..."
+                style="width: 100%;object-fit: cover;"
+              />
+              </div>
+            </div>
+            <div class="carousel-item" style="background-color: #000000a8;">
+              <div style="display: flex;justify-content: center;width: 100vw;">
+                <img
+                src="img/Pancarona/p-grace-main.JPG"
+                class="d-block w-100"
+                alt="..."
+                style="width: 100%;object-fit: cover;"
+              />
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            id="baca"
+          >
+              <div data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                <h1 class="raise">Perspektif</h1>
+                <h5 style="font-size: 25px;"><i>Beda pandangan, tetap bergandeng-tangan</i></h5>
+                <a href="#gal" id="down"style="text-decoration: none;color: white;"><i class="fa-solid fa-chevron-down"></i></a>
+              </div>
+          </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBaca" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBaca" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Foto Gallery -->
+<div class="gal-wrapper" id="gal">
+    <!-- ce Bolen -->
+    <div  data-aos="fade-up" class="gal-item  show-desc">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-1.jpg" data-aos-offset="500"alt="">
+            <p class="clickme">Click me</p>
+            <div class="description">
+                <p>Stan I’m Not Trash di area Food Society Pakuwon Mall.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="100" class="gal-item big-stretch b-main">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-main.jpg" alt="">
+            <div class="description">
+                <p>Salah satu pengunjung yang sedang menikmati waktunya mengecat patung kayu.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" class="gal-item ">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-3.jpg" alt="">
+            <div class="description">
+                <p>Hasil dari patung yang sudah diwarnai pada stan I’m Not Trash.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="150" class="gal-item ">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-2.jpg" alt="">
+            <div class="description">
+                <p>Kaylee, sang pemilik sedang merapikan patung-patung pada rak.</p>
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="100" class="sher-text h-stretch b-t">
+        <div>
+            <h1><b>Benang Harapan</b></h1>
+            <h6><i class="fa-solid fa-camera"></i> Reinhart Aurelvaldo Hadiwijono</h6>
+        </div>
+        <p  style="text-align: justify;">
+            <b>Nataszha Aurelvanka,</b> pendiri "In Between Works", <b>memberi solusi</b>
+            bagi UMKM di Surabaya dalam memperkenalkan fashion batik pada anak muda. 
+            Pameran yang diadakan pada 3 Maret 2024 di Samata House, Wonokromo ini, mengusung brand ‘Pantjarona’. 
+            Dengan kolaborasi UMKM, Nataszha menggagas inovasi fashion batik yang menarik perhatian anak muda. 
+            Acara ini tidak hanya menjadi pengalaman unik, namun juga refleksi menarik tentang kekayaan budaya batik Indonesia bagi generasi muda. 
+            Hadir dengan slogan "Urip Iku Urup", pengunjung merasakan pengalaman interaktif yang menghidupkan kembali kebudayaan batik di kalangan anak muda Surabaya. 
+            <b>Program ini mendukung UMKM lokal, </b> dan memperluas popularitas batik fashion.
+        </p>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="200" class="gal-item">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-5.jpg" alt="">
+            <div class="description">
+                <p>Goretan kuas dan cat pada patung kayu.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="200" class="gal-item v-stretch ">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-7.jpg" alt="">
+            <div class="description">
+                <p>Pengeringan patung kayu oleh dryer.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="200" class="gal-item v-stretch ">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-4.jpg" alt="">
+            <div class="description">
+                <p>Pengunjung yang sedang memilih warna sebelum mulai mengecat.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="200" class="gal-item ">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-b-6.jpg" alt="">
+            <div class="description">
+                <p>Potret kebersamaan antara seorang ibu dan anak saat sedang mewarnai patung kayu.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Graciella -->
+    <div  data-aos="fade-up"  data-aos-delay="300" class="gal-item big-stretch">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-grace-main.JPG" alt="">
+            <div class="description">
+                <p>Sebuah bengkel ban bekas di kawasan Jalan Bibis.</p>
+            </div>
+        </div>
+    </div>
+    <div  data-aos="fade-up" data-aos-delay="200" class="gal-item v-stretch">
+        <div class="foto ui-card">
+            <img src="img/Pancarona/p-grace-4.jpg" alt="">
+            <div class="description">
+                <p>Potret salah satu pekerja menyusun bak yang sudah selesai diwarnai.</p>
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-up" class="sher-text g-t h-stretch">
+        <div>
+            <h1><b>Cinta, Dedikasi, dan Harapan Mewarnai Setiap Langkah</b></h1>
+            <h6><i class="fa-solid fa-camera"></i> Terrence Cornellius Hadi</h6>
+        </div>
+        <p  style="text-align: justify;">
+            <b>Arina Dyah Anggraini, S.E.,</b>alah seorang guru di sekolah luar biasa, yang memiliki tekad dan antusias besar dalam mendidik anak-anak yang luar biasa. 
+            Di panggung pendidikan, para guru adalah pionir yang mengarahkan cahaya bagi generasi masa depan. 
+            Sudah tidak perlu dipertanyakan lagi akan ketetapan dan kesabaran yang tinggi dalam menghadapi siswa-siswi yang bersekolah di sekolah luar biasa. 
+            Atmosfir keceriaan dan kebahagiaan yang dibawahi oleh kesabaran dan rasa tanggung jawab yang teguh oleh para guru sekolah luar biasa.
+
+    </div>
+ 
+
+<div class="container-fluid rm">
+    <a href="Toleransi.html" style="text-decoration: none; color: white;">
+        <div class="read-more">
+            <div>
+                <img src="img/Nawasena/n-m-main.jpg" alt="">
+            </div> 
+            <div>
+                <h2 style="margin-bottom: 2px;">Nawasena</h2>
+                <p style="font-size: 10px;margin-bottom: 5px;">"Hampir setengah windu berlalu..."</p>
+            </div>
+            <div class="next-icon">
+                <i class="fa-solid fa-chevron-right fa-lg"></i>
+            </div>
+        </div>
+    </a>
+</div>    
+<!-- pop up zoom foto pendukung -->
+    <div class="pendukung-pop-up">
+        <div class="d-flex bd-highlight">
+            <div class="p-2 w-100 bd-highlight">
+              <img
+                id="img-logo"
+                style="width: 200px; height: auto;"src="https://genta.petra.ac.id/wp-content/uploads/2021/04/cropped-LogoGentabiru-1.png"/>
+            </div>
+            <div class="p-2 flex-shrink-1 bd-highlight">
+              <button style="width: 45px; height: 45px;"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <div>
+          <img id="pop-up" src="" />
+        </div>
+      </div>
+      <!-- copy rigth -->
+    <nav id="navbar-example2" class="navbar navbar-light bg-light" style="padding-left: 5%;">
+        <p class="navbar-brand" id="navbar-font">
+            Copyright ©
+            <script type="text/JavaScript"> document.write(new Date().getFullYear()); </script> GENTA Petra | All rights
+            reserved
+        </p>
+
+        <ul class="nav nav-pills" style="padding-right: 5%;">
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px;">
+                <a href="https://bit.ly/2Y0tELI" style="color: #000000; text-decoration: none; cursor: pointer;">
+                    <img style="width: 30px; height: 30px;" src="img/browser.png">
+                </a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px;">
+                <a href="https://bit.ly/30svMJz" style="color: #000000; text-decoration: none; cursor: pointer;">
+                    <img style="width: 30px; height: 30px;" src="img/instagram.png">
+                </a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px;">
+                <a href="https://bit.ly/2vAW8NW" style="color: #000000; text-decoration: none; cursor: pointer;">
+                    <img style="width: 30px; height: 30px;" src="img/line.png">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("myNav").style.top = "0";
+            }
+            else {
+                document.getElementById("myNav").style.top = "-150px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+    <script type="text/javascript">
+        function openNav() {
+            var navbar = document.getElementById("myNavv");
+            navbar.classList.toggle("overlayactive");
+            var pencetan = document.getElementById("hehe");
+            pencetan.classList.toggle("closebtnactive");
+        }
+
+        function closeNav() {
+            var navbar = document.getElementById("myNavv");
+            navbar.classList.toggle("overlayactive");
+            document.getElementById("hehe").style.visibility = "hidden";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <!-- custom jquery -->
+    <script src="js/artikel.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

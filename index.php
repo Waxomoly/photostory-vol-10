@@ -17,7 +17,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 <html>
 
 <head>
-    <title>Photostory vol 9 | "Pulih"</title>
+    <title>Photostory vol 10 | "Sepadan"</title>
     <link rel="icon" type="image/x-icon" href="assets/Favicon.ico" />
     
     <meta charset="utf-8">
@@ -83,9 +83,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/2\ -\ Pancarona.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Apa yang sempat terlihat, apakah bermakna?</h3>
-                <h2 class="title">Pancarona</h2>
-                <a href="Pancarona.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Beda pandangan, tetap bergandeng-tangan</h3>
+                <h2 class="title">Perspektif</h2>
+                <a href="Perspektif.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal2">Deskripsi</a>
 
 
@@ -216,12 +216,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Pancarona – Apa yang sempat terlihat, apakah bermakna?</b></h4>
+                        <h4 class="modal-title"><b>Perspektif – Beda pandangan, tetap bergandeng-tangan</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Seiring berjalannya waktu, manusia mulai terikat dengan perspektif tertentu.</p> 
-                            <p>Sepasang mata untuk melihat, detakan jantung guna merasa.</p>
-                            <p>Berikut kisah mereka yang memiliki kreativitas sendiri untuk menemukan rona dalam kelabu.</p>
+                            <p>Ragam pandangan membentuk mozaik kehidupan.</p> 
+                            <p>Tidak sekadar titik pandang, tetapi juga jendela menuju luasnya kemungkinan.</p>
+                            <p>Sekali lagi bergantung cara pandang masing-masing insan yang berjuang.</p>
+                            <p>Singkap lembaran baru, telusuri keberagaman, dan temukan keindahan di dalamnya.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
