@@ -17,7 +17,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 <html>
 
 <head>
-    <title>Photostory vol 9 | "Pulih"</title>
+    <title>Photostory vol 10 | "Sepadan"</title>
     <link rel="icon" type="image/x-icon" href="assets/Favicon.ico" />
     
     <meta charset="utf-8">
@@ -67,9 +67,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/4\ -\ Smarana.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Yang sempat muda, apa terluka?</h3>
-                <h2 class="title">Kala</h2>
-                <a href="Kala.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Ada namun memudar, Pluralitas sekedar melintas</h3>
+                <h2 class="title">Fatamorgana</h2>
+                <a href="Fatamorgana.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal1">Deskripsi</a>
 
             </div>
@@ -83,9 +83,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/2\ -\ Pancarona.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Apa yang sempat terlihat, apakah bermakna?</h3>
-                <h2 class="title">Pancarona</h2>
-                <a href="Pancarona.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Beda pandangan, tetap bergandeng-tangan</h3>
+                <h2 class="title">Perspektif</h2>
+                <a href="Perspektif.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal2">Deskripsi</a>
 
 
@@ -124,10 +124,10 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/1\ -\ Nawasena.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Membingkai kemungkinan</h3>
-                <h2 class="title">Nawasena</h2>
+                <h3 class="subtitle">Kembalikan rasa humanis, tak sekadar senyum manis</h3>
+                <h2 class="title">Toleransi</h2>
 
-                <a href="Nawasena.html" class="btn">Telusuri</a>
+                <a href="Toleransi.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal3">Deskripsi</a>
 
             </div>
@@ -142,9 +142,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/3\ -\ Sadhana.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Bayangan kemarin, peta esok hari</h3>
-                <h2 class="title">Pemulihan</h2>
-                <a href="Pemulihan.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Aku dan Kamu, Melebur dalam Divergensi</h3>
+                <h2 class="title">Heterogen</h2>
+                <a href="Heterogen.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal4">Deskripsi</a>
 
             </div>
@@ -191,14 +191,14 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Kala - Yang sempat muda, apa terluka?</b></h4>
+                        <h4 class="modal-title"><b>Fatamorgana - Ada namun memudar, Pluralitas sekedar melintas</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Andaikan bisa sebahagia  dulu.</p> 
-                            <p>Namun, bagi seorang anak yang terluka, perjalanan mendefinisikan pemulihan sebagai proses melupakan.</p>
-                            <p>Hingga kian hari, luka semakin terasa sakit, menjadi air mata saat waktu memberi kesempatan ‘tuk bernapas. Bebannya setara, tanpa pilih kasih. Pelajaran tertumpuk bak menara, meski tak fasih.</p> 
+                            <p>Pluralitas ada namun sekadar melintas.</p> 
+                            <p>Apa yang di depan mata itu nyata, ataukah ilusi semata?</p>
+                            <p>Kalau kata musafir di tanah tandus, ibarat utopia, terlalu indah tuk dibilang nyata.</p> 
                             <p>Untuk kisah-kisah berikut, saatnya kembali ke masa lalu.</p>
-                            <p>Dalam diri, dalam arti.</p> 
+                            <p>Kerjapkan mata yang terkubur zaman, mungkin cuplikan utopia tadi menjadi elemen realita.</p> 
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -216,12 +216,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Pancarona – Apa yang sempat terlihat, apakah bermakna?</b></h4>
+                        <h4 class="modal-title"><b>Perspektif – Beda pandangan, tetap bergandeng-tangan</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Seiring berjalannya waktu, manusia mulai terikat dengan perspektif tertentu.</p> 
-                            <p>Sepasang mata untuk melihat, detakan jantung guna merasa.</p>
-                            <p>Berikut kisah mereka yang memiliki kreativitas sendiri untuk menemukan rona dalam kelabu.</p>
+                            <p>Ragam pandangan membentuk mozaik kehidupan.</p> 
+                            <p>Tidak sekadar titik pandang, tetapi juga jendela menuju luasnya kemungkinan.</p>
+                            <p>Sekali lagi bergantung cara pandang masing-masing insan yang berjuang.</p>
+                            <p>Singkap lembaran baru, telusuri keberagaman, dan temukan keindahan di dalamnya.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -239,12 +240,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Nawasena - membingkai kemungkinan</b></h4>
+                        <h4 class="modal-title"><b>Toleransi - Kembalikan rasa humanis, tak sekadar senyum manis</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Hati ibarat jendela yang tertutup rapat. Walau begitu, sudah waktunya bagi bilik hati ini untuk membuka diri.</p>
-                            <P>Menangkal kekhawatiran kemarin, menatap kesempatan yang datang kian sering. Kadang membutuhkan retakan di ruang gelap agar cahaya dapat mengintip masuk. Ibarat rumah tua yang awalnya tidak menarik, tapi tetap hidup menyimpan rahasianya.</P>
-                            <P>Di bingkai jendela kali ini, bukalah, dan intiplah serangkaian cerita di dalamnya.</p>
+                            <p>Kembalikan rasa humanis, tak sekedar senyum manis.</p>
+                            <p>Benteng tak selalu berarti sebuah pembatas yang membedakan dua sisi kehidupan.</p>
+                            <p>Siapa tahu, di balik benteng yang menjulang tinggi, ada secercah keindahan di luar imajinasi.</p>
+                            <p>Coba runtuhkan benteng itu dan temukan keindahan di baliknya.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -262,11 +264,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Pemulihan - bayangan kemarin, peta esok hari</b></h4>
+                        <h4 class="modal-title"><b>Heterogen - Aku dan Kamu, Melebur dalam Divergensi</b></h4>
                     </div>
                         <div class="modal-body">
-                            <P>Hingga kamera ini tidak lagi mengisahkan sejarah, tapi menulis lembaran baru nan cerah.</P>
-                            <P>Hingga fakta tidak lagi berupa koran, tapi buku harian seorang anak yang kembali beranjak.</P>
+                            <P>Bagai bumbu dalam masakan, jadikan hidangan beraneka cita rasa. </P>
+                            <P>Pisahkan segala bumbu, maka timbul rasa kehampaan. </P>
+                            <p>Tidak semua hal sejatinya dapat dipisahkan.</p>
+                            <p>Persatuan mereka seringkali membawa keharmonisan.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
