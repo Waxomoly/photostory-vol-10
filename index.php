@@ -80,7 +80,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
            
         </div>
 
-        <div class="carousel-cell" style="background-image: url(img/2\ -\ Pancarona.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Perspektif/A3_2.JPG">
             <div class="overlay"></div>
             <div class="inner">
                 <h3 class="subtitle">Beda pandangan, tetap bergandeng-tangan</h3>
