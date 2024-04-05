@@ -773,11 +773,6 @@ div.container-fluid.rm{
 	font-size: 13px;
 }
 
-.ui-card .description p{
-	transform: translateY(30px);
-	opacity: 0;
-	transition: all 0.3s ease-out 0.2s;
-}
 
 
 .show-desc .description p{
