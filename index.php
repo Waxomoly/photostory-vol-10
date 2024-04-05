@@ -17,7 +17,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 <html>
 
 <head>
-    <title>Photostory vol 9 | "Pulih"</title>
+    <title>Photostory vol 10 | "Sepadan"</title>
     <link rel="icon" type="image/x-icon" href="assets/Favicon.ico" />
     
     <meta charset="utf-8">
@@ -59,7 +59,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 10%; left: 2%" alt="" />
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 15%; left: 2%" alt="" />
             <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" />
-            <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-style:italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Anton Kusnanto, S.Sos., fotojurnalis"</p>
+            <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-style:italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
         </div>
 
 
@@ -139,12 +139,12 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
         </div>
 
-        <div class="carousel-cell" style="background-image: url(img/3\ -\ Sadhana.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Heterogen/Chris/A4/SAVE_20240330_085931.jpg)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Bayangan kemarin, peta esok hari</h3>
-                <h2 class="title">Pemulihan</h2>
-                <a href="Pemulihan.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Aku dan Kamu, melebur dalam Divergensi</h3>
+                <h2 class="title">Heterogen</h2>
+                <a href="Heterogen.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal4">Deskripsi</a>
 
             </div>
@@ -262,11 +262,21 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Pemulihan - bayangan kemarin, peta esok hari</b></h4>
+                        <h4 class="modal-title"><b>Heterogen - bayangan kemarin, peta esok hari</b></h4>
                     </div>
                         <div class="modal-body">
-                            <P>Hingga kamera ini tidak lagi mengisahkan sejarah, tapi menulis lembaran baru nan cerah.</P>
-                            <P>Hingga fakta tidak lagi berupa koran, tapi buku harian seorang anak yang kembali beranjak.</P>
+                            <P>
+                                Bagai bumbu dalam masakan, jadikan hidangan beraneka cita rasa.  
+                            </P>
+                            <P>
+                                Pisahkan segala bumbu, maka timbul rasa kehampaan.
+                            </P>
+                            <P>
+                                Tidak semua hal sejatinya dapat dipisahkan.
+                            </P>
+                            <P>
+                                Persatuan mereka seringkali membawa keharmonisan.
+                            </P>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
