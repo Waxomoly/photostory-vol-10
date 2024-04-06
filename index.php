@@ -58,7 +58,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 5%; left: 2%" alt="" />
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 10%; left: 2%" alt="" />
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 15%; left: 2%" alt="" />
-            <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" />
+            <!-- <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" /> -->
+            <h1 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:15%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 9vw">Sepadan</h1>
+            <h3 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:11%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.75px black">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
             <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-style:italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
         </div>
 
@@ -67,9 +69,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/4\ -\ Smarana.webp)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Yang sempat muda, apa terluka?</h3>
-                <h2 class="title">Kala</h2>
-                <a href="Kala.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Ada namun memudar, pluralitas sekedar melintas</h3>
+                <h2 class="title">Fatamorgana</h2>
+                <a href="Fatamorgana.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal1">Deskripsi</a>
 
             </div>
@@ -191,14 +193,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Kala - Yang sempat muda, apa terluka?</b></h4>
+                        <h4 class="modal-title"><b>Fatamorgana - Ada namun memudar, pluralitas sekedar melintas</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Andaikan bisa sebahagia  dulu.</p> 
-                            <p>Namun, bagi seorang anak yang terluka, perjalanan mendefinisikan pemulihan sebagai proses melupakan.</p>
-                            <p>Hingga kian hari, luka semakin terasa sakit, menjadi air mata saat waktu memberi kesempatan ‘tuk bernapas. Bebannya setara, tanpa pilih kasih. Pelajaran tertumpuk bak menara, meski tak fasih.</p> 
-                            <p>Untuk kisah-kisah berikut, saatnya kembali ke masa lalu.</p>
-                            <p>Dalam diri, dalam arti.</p> 
+                            <p>Pluralitas ada namun sekadar melintas.</p> 
+                            <p>Apa yang di depan mata itu nyata, ataukah ilusi semata?</p>
+                            <p>Kalau kata musafir di tanah tandus, ibarat utopia, terlalu indah tuk dibilang nyata.</p> 
+                            <p>Kerjapkan mata yang terkubur zaman, mungkin cuplikan utopia tadi menjadi elemen realita.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
