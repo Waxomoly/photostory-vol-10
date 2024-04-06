@@ -65,11 +65,20 @@
             font-family: 'Pompei';/*ini fontnya bebas dinamai apa*/
             src: url(font/Pompei\ Std\ Light.otf); /*ngarahin ke file fontnya*/
         }
-        * {
-            /* ini cara pakai nya : sesuai km kasih nama di font-face */
-            font-family: 'Pompei';
+        @font-face {
+            font-family: 'Ruslan';
+            src: url(font/RuslanDisplay-Regular.ttf);
         }
 
+        @font-face {
+            font-family: Pompei Bold;
+            src: url(font/Pompei\ Std\ Demi\ Bold.otf);
+        }
+
+        @font-face {
+            font-family: "Pompei Italic";
+            src: url(font/Pompei\ Std\ Light\ Italic.otf);
+        }
         .mylink {
             text-decoration: none;
             color: white;
@@ -416,7 +425,7 @@ body,html{
           >
               <div data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
                 <h1 class="raise">Toleransi</h1>
-                <h5 style="font-size: 25px;"><i> Kembalikan rasa humanis, tak sekadar senyum manis</i></h5>
+                <h5 style="font-size: 25px; font-family: Pompei Italic"><i> Kembalikan rasa humanis, tak sekadar senyum manis</i></h5>
                 <a href="#gal" id="down"style="text-decoration: none;color: white;"><i class="fa-solid fa-chevron-down"></i></a>
                
                 <a href="#gal" id="down"style="text-decoration: none;color: white;"></a>
@@ -448,10 +457,10 @@ body,html{
     </div>
     <div data-aos="fade-up" data-aos-delay="150" class="sher-text s-t h-stretch">
         <div>
-            <h1><b>Di Balik Dinding Jalan Gading</b></h1>
-            <h6><i class="fa-solid fa-camera"></i> Siauw, Jeremia Oktaviano Hariyanto</h6>
+            <h1 style="font-family: 'RuslanDisplay-Regular';"><b>Di Balik Dinding Jalan Gading</b></h1>
+            <h6 style="font-family: Pompei Bold"><i class="fa-solid fa-camera"></i> Siauw, Jeremia Oktaviano Hariyanto</h6>
         </div>
-        <p  style="text-align: justify;">Di antara ribuan masjid di Surabaya, keunikan arsitektural Masjid Muhammad Cheng Hoo menjadi daya tarik tersendiri <br> bagi masyarakat sekitar. Kepala Takmir masjid (pengelola masjid), Ustad Ahmad Hariyono Ong, SHI., MEI., mengatakan masjid yang berlokasi di Jalan Gading, Kecamatan Genteng, Surabaya, ini terinspirasi dari Masjid Niu Jie yang terletak di kota Beijing. Jika diamati dengan saksama, bangunan ini menyerupai kapal yang melambangkan Laksamana Cheng Hoo sebagai pelaut. Hal ini menjadi bukti nyata adanya akulturasi budaya Arab dan Tionghoa pada masjid yang didirikan oleh Persatuan Islam Tionghoa Indonesia (PITI) pada tahun 2002.</p>
+        <p  style="text-align: justify; font-family:'Pompei';">Di antara ribuan masjid di Surabaya, keunikan arsitektural Masjid Muhammad Cheng Hoo menjadi daya tarik tersendiri bagi masyarakat sekitar. Kepala Takmir masjid (pengelola masjid), Ustad Ahmad Hariyono Ong, SHI., MEI., mengatakan masjid yang berlokasi di Jalan Gading, Kecamatan Genteng, Surabaya, ini terinspirasi dari Masjid Niu Jie yang terletak di kota Beijing. Jika diamati dengan saksama, bangunan ini menyerupai kapal yang melambangkan Laksamana Cheng Hoo sebagai pelaut. Hal ini menjadi bukti nyata adanya akulturasi budaya Arab dan Tionghoa pada masjid yang didirikan oleh Persatuan Islam Tionghoa Indonesia (PITI) pada tahun 2002.</p>
     </div>
     <div data-aos-offset="200" data-aos="fade-up" class="gal-item">
         <div class="foto">
@@ -510,10 +519,10 @@ body,html{
     </div>
     <div data-aos="fade-up" data-aos-delay="200" class="sher-text f-t h-stretch">
         <div>
-            <h1><b>Pulihkan Harapan Lewat Kebersamaan di <br>Bulan Suci Ramadhan </b></h1>
-            <h6><i class="fa-solid fa-camera"></i> Richard Kenjiro Wibisono</h6>
+            <h1 style="font-family: 'RuslanDisplay-Regular';"><b>Pulihkan Harapan Lewat Kebersamaan di Bulan Suci Ramadhan </b></h1>
+            <h6 style="font-family: Pompei Bold;"><i class="fa-solid fa-camera"></i> Richard Kenjiro Wibisono</h6>
         </div>
-        <p  style="text-align: justify;">
+        <p  style="text-align: justify; font-family: 'Pompei';">
             Bersama mengulurkan tangan memberi bantuan warga Rusunawa Sumur Welut Surabaya, Perkumpulan Alumni Saint Louis Satu (PALS) mengadakan bakti sosial di bulan suci Ramadhan untuk membantu rakyat yang terdampak oleh gusuran Kampung 1001 Malam dengan bazar dan sembako murah. Solidaritas dan kebersamaan menciptakan harapan baru bagi mereka yang membutuhkan, menegaskan pentingnya saling mendukung dalam mengatasi cobaan. Pulihkan harapan lewat kebersamaan, karena dalam solidaritas kita temukan kekuatan untuk menciptakan perubahan positif."
         </p>
     </div>
@@ -548,8 +557,8 @@ body,html{
                 <img src="img/Heterogen/Chris/A4/SAVE_20240330_085931.jpg" alt="">
             </div> 
             <div>
-                <h2 style="margin-bottom: 2px;">Heterogen</h2>
-                <p style="font-size: 8px;margin-bottom: 2px;">"Aku dan Kamu, melebur dalam Divergensi"</p>
+                <h2 style="margin-bottom: 2px; font-family: Ruslan">Heterogen</h2>
+                <p style="font-size: 8px;margin-bottom: 2px; font-family: Pompei">"Aku dan Kamu, melebur dalam Divergensi"</p>
             </div>
             <div class="next-icon">
                 <i class="fa-solid fa-chevron-right fa-lg"></i>

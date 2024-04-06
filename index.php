@@ -82,6 +82,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <!-- <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" /> -->
             <div class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:13%;left:5%">
                 <h1 style="position:absolute;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 6vw; bottom: 60%;">Sepadan</h1>
+                <img src="assets\decor\Kartu Illust\IMG_6911.PNG" alt="" style="position:absolute; transform:rotate(0deg); height: 175%; z-index: 100; left:39%; bottom:60% ;transform:rotate(-25deg)">
                 <h3 style="font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.52px black; font-size: 2vw">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
             </div>
             <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-family:Pompei Std Light Italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
@@ -101,7 +102,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
             <!--<img src="assets/edit/bunga-home3.png"-->
             <!--    class="animate__animated animate__slideInRight" style="transform:rotate(60deg); width: 15%; position: absolute; top: 9%; left: -18%" alt="" />-->
-            <div class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 6%; left: -37%">
+            <div class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 6%; left: -40%">
                 <h1 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 5vw">Photostory</h1>
                 <h1 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 4vw; margin-top: 20%; margin-left: 40%; rotate: 90deg">│</h1>
                 <h2 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 4vw; margin-top: 23%; margin-left: 60%">Vol.10</h2>
@@ -121,31 +122,22 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
             </div>
 
-            <img src="assets/edit/tanaman2.png"
-                class="animate__animated animate__slideInUp" style="transform:rotate(0deg); width: 40%; position: absolute; bottom: -20%; left: -112%">
+            <img src="assets/decor/4.png"
+                class="animate__animated animate__slideInUp" style="transform:rotate(0deg); width: 40%; position: absolute; bottom: -27%; left: -125%">
 
-            <img src="assets/edit/tanaman3.png"
-                style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -15%">
+            <img src="assets/decor/topeng.png"
+                style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -104%; top:50%">
 
-            <img src="assets/edit/flower3.png" style="width: 30%; position: absolute; bottom: -17%; left: -22%">
+            <img src="assets/decor/IMG_7105.PNG"
+            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -70%; width: 95%">
 
-            <img src="assets/edit/MenjalarDulu4.png"
-                style="transform:rotate(0deg); width: 10%; position: absolute; top: -10%; left: -94%">
+            <img src="assets/decor/lampu_gantung.png"
+                style="transform:rotate(0deg); width: 50%; position: absolute; bottom: 25%; left: -13%">
 
-            <img src="assets/edit/MenjalarDuluBlur.png"
-                style="transform:rotate(0deg); width: 5%; position: absolute; top: -10%; left: -98%">
+            
 
-            <img src="assets/edit/MenjalarDuluBlur.png"
-                style="transform:rotate(5deg); width: 4%; position: absolute; top: -10%; left: -15%">
-
-            <img src="assets/edit/tanaman4.png"
-                style="transform:rotate(0deg); width: 18%; position: absolute; top: -10%; left: -3%">
-
-            <img src="assets/edit/person2.png"
-                style="transform:rotate(0deg); width: 12%; position: absolute; bottom: 0%; left: 10%">
-
-            <img src="assets/edit/star.gif"
-                style="transform:rotate(0deg); width: 5%; position: absolute; top: 5%; right: 13%">
+            <img src="assets/decor/3.png"
+                style="transform:rotate(0deg); height: 50%; position: absolute; left: 10%; top: 53%">
 
             <img src="assets/swipe.gif" style="transform:rotate(90deg); width: 7%; position: absolute; bottom: 10%; left: -110%" alt="" />
 
@@ -161,11 +153,17 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                 <a class="abaru" data-toggle="modal" data-target="#myModal3">Deskripsi</a>
 
             </div>
-            <img src="assets/edit/pohon1.png"
-                style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -20%">
+            <img src="assets/decor/IMG_6812.PNG"
+                style="transform:rotate(27deg); width: 30%; position: absolute; bottom: 40%; left: -15%">
 
-            <img src="assets/edit/flower4.png"
-                style="transform:rotate(0deg); width: 40%; position: absolute; bottom: -20%; left: -25%">
+            <img src="assets/decor/IMG_6811.PNG"
+                style="transform:rotate(-27deg); width: 30%; position: absolute; bottom: 26%; left: -19%">
+
+            <img src="assets/decor/IMG_6818.PNG"
+            style="transform:rotate(27deg); width: 30%; position: absolute; bottom: 10%; left: -13%">
+
+            <img src="assets\decor\IMG_6866.PNG"
+                style="transform:rotate(-10deg); width: 30%; position: absolute; bottom: -16%; left: -15%">
 
         </div>
 
@@ -178,24 +176,18 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                 <a class="abaru" data-toggle="modal" data-target="#myModal4">Deskripsi</a>
 
             </div>
-            <img src="assets/edit/MenjalarDulu4.png"
-                style="transform:rotate(0deg); width: 10%; position: absolute; top: -10%; left: -94%">
 
-            <img src="assets/edit/MenjalarDuluBlur.png"
-                style="transform:rotate(0deg); width: 5%; position: absolute; top: -10%; left: -98%">
-
-            <img src="assets/edit/pohon2.png"
+            <img src="assets/decor/1.png"
                 style="transform:rotate(0deg); width: 45%; position: absolute; bottom: -10%; left: -25%">
 
-            <img src="assets/edit/person1.png"
-                style="transform:rotate(0deg); width: 7%; position: absolute; bottom: 0%; left: -20%">
+            <img src="assets/decor/camera (2).png"
+            style="transform:rotate(-10deg); width: 18%; position: absolute; top:2%; left: 72%">
 
-            <img src="assets/edit/batu-3.png"
-                style="transform:rotate(0deg); width: 18%; position: absolute; bottom: -10%; left: -8%">
+            <img src="assets\decor\IMG_6814.PNG"
+            style="transform:rotate(4deg); width: 40%; position: absolute; left: 67%; bottom:-20%">
 
-            <img src="assets/edit/batu-5.png"
-                style="transform:rotate(0deg); width: 18%; position: absolute; bottom: -10%; right: 2%">
-
+            <img src="assets\decor\IMG_6815.PNG"
+            style="transform:rotate(18deg); width: 40%; position: absolute; left: 72%; bottom:-38%">
         </div>
 
     </div>
