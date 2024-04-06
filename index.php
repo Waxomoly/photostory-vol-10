@@ -50,7 +50,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 <body>
 
     <div class="hero-slider" data-carousel>
-        <div class="carousel-cell" style="background-image: url(img/home.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Perspektif/Terrence/A5/DSC05799.JPG)">
             <div class="overlay"></div>
             <!--<img src="assets/edit/bunga-home2.png"-->
             <!--class="animate__animated animate__slideInUp" style="transform:rotate(-35deg); width: 25%; position: absolute; bottom: -18%; left: -9%" alt="" />-->
@@ -59,14 +59,14 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 10%; left: 2%" alt="" />
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 15%; left: 2%" alt="" />
             <!-- <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" /> -->
-            <h1 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:15%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 9vw">Sepadan</h1>
-            <h3 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:11%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.75px black">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
+            <h1 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:15%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 7vw">Sepadan</h1>
+            <h3 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:11%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.52px black">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
             <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-style:italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
         </div>
 
 
 
-        <div class="carousel-cell" style="background-image: url(img/4\ -\ Smarana.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Fatamorgana/Irene/A3/20240229123538_IMG_9139.jpg)">
             <div class="overlay"></div>
             <div class="inner">
                 <h3 class="subtitle">Ada namun memudar, pluralitas sekedar melintas</h3>
@@ -78,16 +78,18 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
             <!--<img src="assets/edit/bunga-home3.png"-->
             <!--    class="animate__animated animate__slideInRight" style="transform:rotate(60deg); width: 15%; position: absolute; top: 9%; left: -18%" alt="" />-->
-            <img src="assets/edit/Title.png" class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 8%; left: -35%" alt="" />
+            <h1 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 4%; left: -35%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 7vw">Photostory</h1>
+            <h1 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 39%; left: -40%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 7vw; rotate: 90deg">│</h1>
+            <h2 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 18%; left: -19%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 5vw">Vol.10</h2>
            
         </div>
 
-        <div class="carousel-cell" style="background-image: url(img/2\ -\ Pancarona.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Perspektif/A3_2.JPG)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Apa yang sempat terlihat, apakah bermakna?</h3>
-                <h2 class="title">Pancarona</h2>
-                <a href="Pancarona.html" class="btn">Telusuri</a>
+                <h3 class="subtitle">Beda pandangan, tetap bergandeng-tangan</h3>
+                <h2 class="title">Perspektif</h2>
+                <a href="Perspektif.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal2">Deskripsi</a>
 
 
@@ -123,13 +125,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
         </div>
 
-        <div class="carousel-cell" style="background-image: url(img/1\ -\ Nawasena.webp)">
+        <div class="carousel-cell" style="background-image: url(img/Toleransi/Richard/A4/IMG_20240324_150505.jpg)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Membingkai kemungkinan</h3>
-                <h2 class="title">Nawasena</h2>
+                <h3 class="subtitle">Kembalikan rasa humanis, tak sekadar senyum manis</h3>
+                <h2 class="title">Toleransi</h2>
 
-                <a href="Nawasena.html" class="btn">Telusuri</a>
+                <a href="Toleransi.html" class="btn">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal3">Deskripsi</a>
 
             </div>
@@ -170,19 +172,6 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
         </div>
 
-
-        <div class="carousel-cell" style="background-image: url(img/Regis.webp)">
-            <div class="overlay"></div>
-            <div class="inner">
-                <a href="https://xy34gqw127y.typeform.com/c/rjbFIKeJ" style="font-size: x-large" class="btn">Regist in Here</a>
-            </div>
-            <img src="assets/edit/pohon3.png"
-                style="transform:rotate(0deg); width: 45%; position: absolute; bottom: -10%; left: -33%">
-
-            <img src="assets/edit/pohon2.png"
-                style="transform:rotate(0deg); width: 45%; position: absolute; bottom: -10%; right: -20%">
-        </div>
-
     </div>
 
                 <!-- Modal 1 -->
@@ -217,12 +206,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Pancarona – Apa yang sempat terlihat, apakah bermakna?</b></h4>
+                        <h4 class="modal-title"><b>Perspektif – Beda pandangan tetap bergandeng-tangan</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Seiring berjalannya waktu, manusia mulai terikat dengan perspektif tertentu.</p> 
-                            <p>Sepasang mata untuk melihat, detakan jantung guna merasa.</p>
-                            <p>Berikut kisah mereka yang memiliki kreativitas sendiri untuk menemukan rona dalam kelabu.</p>
+                            <p>Ragam pandangan membentuk mozaik kehidupan.</p> 
+                            <p>Tidak sekadar titik pandang, tetapi juga jendela menuju luasnya kemungkinan.</p>
+                            <p>Sekali lagi bergantung cara pandang masing-masing insan yang berjuang.</p>
+                            <p>Singkap lembaran baru, telusuri keberagaman, dan temukan keindahan di dalamnya.</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -240,12 +230,13 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Nawasena - membingkai kemungkinan</b></h4>
+                        <h4 class="modal-title"><b>Toleransi - Kembalikan rasa humanis, tak sekedar senyum manis</b></h4>
                         </div>
                         <div class="modal-body">
-                            <p>Hati ibarat jendela yang tertutup rapat. Walau begitu, sudah waktunya bagi bilik hati ini untuk membuka diri.</p>
-                            <P>Menangkal kekhawatiran kemarin, menatap kesempatan yang datang kian sering. Kadang membutuhkan retakan di ruang gelap agar cahaya dapat mengintip masuk. Ibarat rumah tua yang awalnya tidak menarik, tapi tetap hidup menyimpan rahasianya.</P>
-                            <P>Di bingkai jendela kali ini, bukalah, dan intiplah serangkaian cerita di dalamnya.</p>
+                            <p>Kembalikan rasa humanis, tak sekedar senyum manis.</p>
+                            <P>Benteng tak selalu berarti sebuah pembatas yang membedakan dua sisi kehidupan.</P>
+                            <P>Siapa tahu, di balik benteng yang menjulang tinggi, ada secercah keindahan di luar imajinasi.</p>
+                            <P>Coba runtuhkan benteng itu dan temukan keindahan di baliknya.</P>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -263,7 +254,7 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                     <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Heterogen - bayangan kemarin, peta esok hari</b></h4>
+                        <h4 class="modal-title"><b>Heterogen - Aku dan Kamu, melebur dalam Divergensi</b></h4>
                     </div>
                         <div class="modal-body">
                             <P>
