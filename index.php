@@ -43,6 +43,27 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             color: #ff42c3;
             background-color: #000;
         }
+
+        @font-face {
+            font-family: "RuslanDisplay-Regular";
+            src: url(font/RuslanDisplay-Regular.ttf);
+        }
+        @font-face {
+            font-family: "Pompei Std Demi Bold";
+            src: url(font/Pompei\ Std\ Demi\ Bold.otf);
+        }
+        @font-face {
+            font-family: "Pompei Std Light Italic";
+            src: url(font/Pompei\ Std\ Light\ Italic.otf);
+        }
+        @font-face {
+            font-family: "Pompei Std Light";
+            src: url(font/Pompei\ Std\ Light.otf);
+        }
+        @font-face {
+            font-family: "Pompei Std Regular";
+            src: url(font/Pompei\ Std \ Regular.otf);
+        }
     </style>
 
 </head>
@@ -59,9 +80,11 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 10%; left: 2%" alt="" />
             <img src="assets/edit/kompas.png" class="animate__animated animate__fadeInLeft" style="width: 2%; position: absolute; top: 15%; left: 2%" alt="" />
             <!-- <img src="assets/edit/title-utama.png" class="animate__animated animate__fadeInLeft" style="width: 50%; position: absolute; bottom: 12%; left: 5%" alt="" /> -->
-            <h1 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:15%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 7vw">Sepadan</h1>
-            <h3 class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:11%;left:5%;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.52px black">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
-            <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-style:italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
+            <div class="animate__animated animate__fadeInLeft" style="color:white; position:absolute;bottom:13%;left:5%">
+                <h1 style="position:absolute;font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 1px black; font-size: 6vw; bottom: 60%;">Sepadan</h1>
+                <h3 style="font-family:'RuslanDisplay-Regular'; -webkit-text-stroke: 0.52px black; font-size: 2vw">Tak Lebih Dan Tak Kurang, Setiap Insan Menyala Sama Terang</h3>
+            </div>
+            <p style="color:white;position:absolute;left:6%;top:11%;font-family:'TenorSans';width:65%;font-family:Pompei Std Light Italic;" class="animate__animated animate__fadeInLeft">"Dikurasi oleh Bahar Adyaksa S.Ds."</p>
         </div>
 
 
@@ -69,27 +92,30 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/Fatamorgana/Irene/A3/20240229123538_IMG_9139.jpg)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Ada namun memudar, pluralitas sekedar melintas</h3>
-                <h2 class="title">Fatamorgana</h2>
-                <a href="Fatamorgana.html" class="btn">Telusuri</a>
+                <h3 class="subtitle" style="font-family:Pompei Std Light Italic">Ada namun memudar, pluralitas sekedar melintas</h3>
+                <h2 class="title" style="font-family: RuslanDisplay-Regular">Fatamorgana</h2>
+                <a href="Fatamorgana.html" class="btn" style="font-family: Pompei Std Light">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal1">Deskripsi</a>
 
             </div>
 
             <!--<img src="assets/edit/bunga-home3.png"-->
             <!--    class="animate__animated animate__slideInRight" style="transform:rotate(60deg); width: 15%; position: absolute; top: 9%; left: -18%" alt="" />-->
-            <h1 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 4%; left: -35%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 7vw">Photostory</h1>
-            <h1 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 39%; left: -40%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 7vw; rotate: 90deg">│</h1>
-            <h2 class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 18%; left: -19%; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 5vw">Vol.10</h2>
+            <div class="animate__animated animate__backInRight" style="width: 30%; position: absolute; top: 6%; left: -37%">
+                <h1 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 5vw">Photostory</h1>
+                <h1 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 4vw; margin-top: 20%; margin-left: 40%; rotate: 90deg">│</h1>
+                <h2 style="position:absolute; font-family:'RuslanDisplay-Regular'; color: white; -webkit-text-stroke: 1px black; font-size: 4vw; margin-top: 23%; margin-left: 60%">Vol.10</h2>
+            </div>
+           
            
         </div>
 
         <div class="carousel-cell" style="background-image: url(img/Perspektif/A3_2.JPG)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Beda pandangan, tetap bergandeng-tangan</h3>
-                <h2 class="title">Perspektif</h2>
-                <a href="Perspektif.html" class="btn">Telusuri</a>
+                <h3 class="subtitle" style="font-family:Pompei Std Light Italic">Beda pandangan, tetap bergandeng-tangan</h3>
+                <h2 class="title" style="font-family: RuslanDisplay-Regular">Perspektif</h2>
+                <a href="Perspektif.html" class="btn" style="font-family: Pompei Std Light">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal2">Deskripsi</a>
 
 
@@ -128,10 +154,10 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/Toleransi/Richard/A4/IMG_20240324_150505.jpg)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Kembalikan rasa humanis, tak sekadar senyum manis</h3>
-                <h2 class="title">Toleransi</h2>
+                <h3 class="subtitle" style="font-family:Pompei Std Light Italic">Kembalikan rasa humanis, tak sekadar senyum manis</h3>
+                <h2 class="title" style="font-family: RuslanDisplay-Regular">Toleransi</h2>
 
-                <a href="Toleransi.html" class="btn">Telusuri</a>
+                <a href="Toleransi.html" class="btn" style="font-family: Pompei Std Light">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal3">Deskripsi</a>
 
             </div>
@@ -146,9 +172,9 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
         <div class="carousel-cell" style="background-image: url(img/Heterogen/Chris/A4/SAVE_20240330_085931.jpg)">
             <div class="overlay"></div>
             <div class="inner">
-                <h3 class="subtitle">Aku dan Kamu, melebur dalam Divergensi</h3>
-                <h2 class="title">Heterogen</h2>
-                <a href="Heterogen.html" class="btn">Telusuri</a>
+                <h3 class="subtitle" style="font-family:Pompei Std Light Italic">Aku dan Kamu, melebur dalam Divergensi</h3>
+                <h2 class="title" style="font-family: RuslanDisplay-Regular">Heterogen</h2>
+                <a href="Heterogen.html" class="btn" style="font-family: Pompei Std Light">Telusuri</a>
                 <a class="abaru" data-toggle="modal" data-target="#myModal4">Deskripsi</a>
 
             </div>

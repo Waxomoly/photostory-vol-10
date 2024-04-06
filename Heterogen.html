@@ -60,13 +60,50 @@
     <style>
         
         @font-face {
-            font-family: 'Pompei';/*ini fontnya bebas dinamai apa*/
-            src: url(font/Pompei\ Std\ Light.otf); /*ngarahin ke file fontnya*/
+            font-family: 'Pompei';
+            src: url(font/Pompei\ Std\ Light.otf);
         }
-        * {
+
+        /* * {  */
             /* ini cara pakai nya : sesuai km kasih nama di font-face */
+            /* font-family: 'Pompei';
+        }  */
+
+        @font-face {
+        font-family: 'RuslanDisplay-Regular'; 
+        src: url(font/RuslanDisplay-Regular.ttf); 
+        }
+
+        @font-face {
+        font-family: 'Pompei Bold';
+        src: url(font/Pompei\ Std\ Demi\ Bold.otf);;
+        }
+
+        @font-face {
+        font-family: 'Pompei Italic';
+        src: url(font/Pompei\ Std\ Light\ Italic.otf);;
+        }
+
+        
+        .raise {
+            font-family: 'RuslanDisplay-Regular';
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'RuslanDisplay-Regular';
+        }
+
+
+        p {
             font-family: 'Pompei';
         }
+        
+        b{
+            font-family: 'Pompei Bold';
+        }  
+
+
+
         
 
         .mylink {
@@ -454,7 +491,7 @@ body,html{
           >
               <div data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
                 <h1 class="raise">Heterogen</h1>
-                <h5 style="font-size: 25px;"><i>Aku dan Kamu, melebur dalam Divergensi</i></h5>
+                <h5 style="font-family: 'Pompei Italic'; font-size: 25px;"><i>Aku dan Kamu, melebur dalam Divergensi</i></h5>
                 <a href="#gal" id="down"style="text-decoration: none;color: white;"><i class="fa-solid fa-chevron-down"></i></a>
               </div>
           </button>
