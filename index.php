@@ -64,6 +64,282 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             font-family: "Pompei Std Regular";
             src: url(font/Pompei\ Std \ Regular.otf);
         }
+
+        @media screen and (min-width: 1249px){
+
+            .kartu-remi{
+                width: 30%;
+            }
+
+            #lampu_gantung_img{
+                bottom: 30%;
+            }
+
+            #karakter3_img{
+                left: 10%;
+                height: 50%;
+                top: 53%;
+            }
+            #jack-card{
+                bottom: 40%;
+            }
+
+            #queen-card{
+                bottom: 26%;
+            }
+
+            #king-card{
+                bottom: 10%;
+            }
+
+            #ace-card{
+                bottom: -16%;
+            }
+            #purple_character{
+                width: 40%;
+                bottom: -27%; 
+                left: -125%;
+            }
+        }
+
+
+        @media screen and (min-width: 968px) and (max-width: 1249px){
+            .kartu-remi{
+                width: 30%;
+            }
+
+            #curtain_img{
+                max-width: 30%;
+                margin-left: 12%;
+            }
+
+            #lampu_gantung_img{
+                bottom: 40%;
+            }
+            #karakter3_img{
+                left: 0%;
+                height: 50%;
+                top: 53%;
+            }
+            #jack-card{
+                bottom: 40%;
+            }
+
+            #queen-card{
+                bottom: 26%;
+            }
+
+            #king-card{
+                bottom: 10%;
+            }
+
+            #ace-card{
+                bottom: -16%;
+            }
+            #purple_character{
+                width: 40%;
+                bottom: -27%; 
+                left: -125%;
+            }
+        }
+
+        @media screen and (min-width: 993px) and (max-width: 1137px){
+            #purple_character{
+                width: 40%;
+                bottom: -20%; 
+                left: -130%;
+            }
+            
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 993px){
+            #purple_character{
+                width: 47%;
+                bottom: -20%; 
+                left: -130%;
+            }
+        }
+
+        @media screen and (min-width: 1000px){
+            #kartu-enam-waru{
+                left: 70%; bottom:-20%;
+            }
+            #kartu-empat-waru{
+                left: 75%; bottom:-38%;
+            }
+        }
+
+        @media screen and (min-width: 928px) and (max-width: 1000px){
+            #kartu-enam-waru{
+                left: 65%; bottom:-20%;
+            }
+            #kartu-empat-waru{
+                left: 70%; bottom:-38%;
+            }
+        }
+
+        @media screen and (min-width: 835px) and (max-width: 928px){
+            #kartu-enam-waru{
+                left: 65%; bottom:-15%;
+            }
+            #kartu-empat-waru{
+                left: 70%; bottom:-33%;
+            }
+        }
+
+        @media screen and (min-width: 767px) and (max-width: 835px){
+            #kartu-enam-waru{
+                left: 65%; bottom:-10%;
+            }
+            #kartu-empat-waru{
+                left: 70%; bottom:-28%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 767px){
+            #kartu-enam-waru{
+                left: 65%; bottom:-5%;
+            }
+            #kartu-empat-waru{
+                left: 70%; bottom:-23%;
+            }
+        }
+
+        @media screen and (min-width: 808px) and (max-width: 969px){
+            .kartu-remi{
+                width: 30%;
+            }
+            #curtain_img{
+                max-width: 30%;
+                margin-left: 12%;
+            }
+            #lampu_gantung_img{
+                bottom: 50%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 50%;
+                top: 53%;
+            }
+            #jack-card{
+                bottom: 40%;
+            }
+
+            #queen-card{
+                bottom: 26%;
+            }
+
+            #king-card{
+                bottom: 10%;
+            }
+
+            #ace-card{
+                bottom: -16%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 855px){
+            .kartu-remi{
+                width: 20%;
+            }
+
+            #jack-card{
+                bottom: 30%;
+            }
+
+            #queen-card{
+                bottom: 20%;
+            }
+
+            #king-card{
+                bottom: 10%;
+            }
+
+            #ace-card{
+                bottom: -5%;
+            }
+        }
+
+        @media screen and (min-width: 693px) and (max-width: 849px){
+            
+            #curtain_img{
+                max-width: 15%;
+                margin-left: 20%;
+            }
+
+            #karakter3_img{
+                left: -13%;
+                height: 50%;
+                top: 53%;
+            }
+        }
+
+        @media screen and (min-width: 685px) and (max-width: 693px){
+             
+            #curtain_img{
+                max-width: 15%;
+                margin-left: 20%;
+            }
+            #karakter3_img{
+                left: -15%;
+                height: 50%;
+                top: 53%;
+            }
+        }
+
+        @media screen and (min-width: 643px) and (max-width: 685px){
+            
+            #curtain_img{
+                max-width: 8%;
+                margin-left: 24%;
+            }
+            #karakter3_img{
+                left: -15%;
+                height: 50%;
+                top: 53%;
+            }
+        }
+
+        @media screen and (min-width: 617px) and (max-width: 643px){
+            
+            #curtain_img{
+                max-width: 7%;
+                margin-left: 24.5%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 40%;
+                top: 62%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 617px){
+            
+            #curtain_img{
+                max-width: 12%;
+                margin-left: 18%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 40%;
+                top: 62%;
+            }
+        }
+
+        @media screen and (min-width: 610px) and (max-width: 808px){
+           
+            #lampu_gantung_img{
+                bottom: 55%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 610px){
+            
+            #lampu_gantung_img{
+                bottom: 65%;
+            }
+        }
+
     </style>
 
 </head>
@@ -122,22 +398,22 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
 
             </div>
 
-            <img src="assets/decor/4.png"
-                class="animate__animated animate__slideInUp" style="transform:rotate(0deg); width: 40%; position: absolute; bottom: -27%; left: -125%">
+            <img src="assets/decor/4.png" id="purple_character"
+                class="animate__animated animate__slideInUp" style="transform:rotate(0deg); position: absolute">
 
             <img src="assets/decor/topeng.png"
                 style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -104%; top:50%">
 
-            <img src="assets/decor/curtain.png"
-            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -25%; width: 50%; z-index=0">
+            <img src="assets/decor/curtain.png" id="curtain_img"
+            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -25%; height:100%; width: 50%; z-index=0">
 
-            <img src="assets/decor/lampu_gantung.png"
-                style="transform:rotate(0deg); width: 50%; position: absolute; bottom: 25%; left: -13%">
+            <img src="assets/decor/lampu_gantung.png" id="lampu_gantung_img"
+                style="transform:rotate(0deg); width: 50%; position: absolute; left: -13%">
 
             
 
-            <img src="assets/decor/3.png"
-                style="transform:rotate(0deg); height: 50%; position: absolute; left: 10%; top: 53%">
+            <img src="assets/decor/3.png" id ="karakter3_img"
+                style="transform:rotate(0deg); position: absolute; z-index: 1;">
 
             <img src="assets/swipe.gif" style="transform:rotate(90deg); width: 7%; position: absolute; bottom: 10%; left: -110%" alt="" />
 
@@ -153,17 +429,17 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
                 <a class="abaru" data-toggle="modal" data-target="#myModal3">Deskripsi</a>
 
             </div>
-            <img src="assets/decor/IMG_6812.PNG"
-                style="transform:rotate(27deg); width: 30%; position: absolute; bottom: 40%; left: -15%">
+            <img class="kartu-remi" src="assets/decor/IMG_6812.PNG" id="jack-card"
+                style="transform:rotate(27deg); position: absolute; left: -15%">
 
-            <img src="assets/decor/IMG_6811.PNG"
-                style="transform:rotate(-27deg); width: 30%; position: absolute; bottom: 26%; left: -19%">
+            <img class="kartu-remi" src="assets/decor/IMG_6811.PNG" id="queen-card"
+                style="transform:rotate(-27deg); position: absolute; left: -19%">
 
-            <img src="assets/decor/IMG_6818.PNG"
-            style="transform:rotate(27deg); width: 30%; position: absolute; bottom: 10%; left: -13%">
+            <img class="kartu-remi" src="assets/decor/IMG_6818.PNG" id="king-card"
+            style="transform:rotate(27deg); position: absolute; left: -13%">
 
-            <img src="assets\decor\IMG_6866.PNG"
-                style="transform:rotate(-10deg); width: 30%; position: absolute; bottom: -16%; left: -15%">
+            <img class="kartu-remi" src="assets\decor\IMG_6866.PNG" id="ace-card"
+                style="transform:rotate(-10deg); position: absolute; left: -17%">
 
         </div>
 
@@ -180,11 +456,11 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/decor/1.png"
                 style="transform:rotate(0deg); width: 45%; position: absolute; bottom: -10%; left: -25%">
 
-            <img src="assets\decor\IMG_6814.PNG"
-            style="transform:rotate(15deg); width: 40%; position: absolute; left: 70%; bottom:-20%">
+            <img src="assets\decor\IMG_6814.PNG" id="kartu-enam-waru"
+            style="transform:rotate(15deg); width: 40%; position: absolute; ">
 
-            <img src="assets\decor\IMG_6815.PNG"
-            style="transform:rotate(34deg); width: 40%; position: absolute; left: 75%; bottom:-38%">
+            <img src="assets\decor\IMG_6815.PNG" id="kartu-empat-waru"
+            style="transform:rotate(34deg); width: 40%; position: absolute; ">
         </div>
 
     </div>
