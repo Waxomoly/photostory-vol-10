@@ -64,6 +64,118 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             font-family: "Pompei Std Regular";
             src: url(font/Pompei\ Std \ Regular.otf);
         }
+
+        @media screen and (min-width: 1249px){
+
+            #lampu_gantung_img{
+                bottom: 30%;
+            }
+
+            #karakter3_img{
+                left: 10%;
+                height: 50%;
+            }
+        }
+
+
+        @media screen and (min-width: 968px) and (max-width: 1249px){
+            #curtain_img{
+                max-width: 30%;
+                margin-left: 12%;
+            }
+
+            #lampu_gantung_img{
+                bottom: 40%;
+            }
+            #karakter3_img{
+                left: 10%;
+                height: 50%;
+            }
+        }
+
+        @media screen and (min-width: 808px) and (max-width: 968px){
+            #curtain_img{
+                max-width: 30%;
+                margin-left: 12%;
+            }
+            #lampu_gantung_img{
+                bottom: 50%;
+            }
+            #karakter3_img{
+                left: 10%;
+                height: 50%;
+            }
+        }
+
+        @media screen and (min-width: 693px) and (max-width: 849px){
+            #curtain_img{
+                max-width: 15%;
+                margin-left: 20%;
+            }
+
+            #karakter3_img{
+                left: -5%;
+                height: 50%;
+            }
+        }
+
+        @media screen and (min-width: 685px) and (max-width: 693px){
+            #curtain_img{
+                max-width: 15%;
+                margin-left: 20%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 50%;
+            }
+        }
+
+        @media screen and (min-width: 643px) and (max-width: 685px){
+            #curtain_img{
+                max-width: 8%;
+                margin-left: 24%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 50%;
+            }
+        }
+
+        @media screen and (min-width: 617px) and (max-width: 643px){
+            #curtain_img{
+                max-width: 7%;
+                margin-left: 24.5%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 30%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 617px){
+            #curtain_img{
+                max-width: 12%;
+                margin-left: 18%;
+            }
+            #karakter3_img{
+                left: -5%;
+                height: 30%;
+            }
+        }
+
+        @media screen and (min-width: 610px) and (max-width: 808px){
+            
+            #lampu_gantung_img{
+                bottom: 55%;
+            }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 610px){
+            #lampu_gantung_img{
+                bottom: 65%;
+            }
+        }
+
     </style>
 
 </head>
@@ -128,16 +240,16 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/decor/topeng.png"
                 style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -104%; top:50%">
 
-            <img src="assets/decor/curtain.png"
-            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -25%; width: 50%; z-index=0">
+            <img src="assets/decor/curtain.png" id="curtain_img"
+            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -25%; height:100%; width: 50%; z-index=0">
 
-            <img src="assets/decor/lampu_gantung.png"
-                style="transform:rotate(0deg); width: 50%; position: absolute; bottom: 25%; left: -13%">
+            <img src="assets/decor/lampu_gantung.png" id="lampu_gantung_img"
+                style="transform:rotate(0deg); width: 50%; position: absolute; left: -13%">
 
             
 
-            <img src="assets/decor/3.png"
-                style="transform:rotate(0deg); height: 50%; position: absolute; left: 10%; top: 53%">
+            <img src="assets/decor/3.png" id ="karakter3_img"
+                style="transform:rotate(0deg); position: absolute; top: 53%; z-index: 1;">
 
             <img src="assets/swipe.gif" style="transform:rotate(90deg); width: 7%; position: absolute; bottom: 10%; left: -110%" alt="" />
 
