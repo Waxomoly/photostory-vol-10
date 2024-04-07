@@ -128,8 +128,8 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/decor/topeng.png"
                 style="transform:rotate(0deg); width: 30%; position: absolute; bottom: 25%; left: -104%; top:50%">
 
-            <img src="assets/decor/IMG_7105.PNG"
-            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -70%; width: 95%">
+            <img src="assets/decor/curtain.png"
+            style="transform:rotate(0deg); position: absolute; bottom:0% ; left: -25%; width: 50%; z-index=0">
 
             <img src="assets/decor/lampu_gantung.png"
                 style="transform:rotate(0deg); width: 50%; position: absolute; bottom: 25%; left: -13%">
@@ -180,14 +180,11 @@ if ($currentDate < $targetDate && !$itcoba) {// periksa apakah tanggal saat ini 
             <img src="assets/decor/1.png"
                 style="transform:rotate(0deg); width: 45%; position: absolute; bottom: -10%; left: -25%">
 
-            <img src="assets/decor/camera (2).png"
-            style="transform:rotate(-10deg); width: 18%; position: absolute; top:2%; left: 72%">
-
             <img src="assets\decor\IMG_6814.PNG"
-            style="transform:rotate(4deg); width: 40%; position: absolute; left: 67%; bottom:-20%">
+            style="transform:rotate(15deg); width: 40%; position: absolute; left: 70%; bottom:-20%">
 
             <img src="assets\decor\IMG_6815.PNG"
-            style="transform:rotate(18deg); width: 40%; position: absolute; left: 72%; bottom:-38%">
+            style="transform:rotate(34deg); width: 40%; position: absolute; left: 75%; bottom:-38%">
         </div>
 
     </div>
